@@ -1,0 +1,11 @@
+{
+  "name": "virtual-doc",
+  "version": "0.0.1",
+  "description": "a virtual document generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thomas.urban@cepharum.de",
+  "license": "MIT"
+}
