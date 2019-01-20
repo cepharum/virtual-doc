@@ -4,8 +4,15 @@
   "description": "a virtual document generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --ui bdd test/**/*.spec.js"
   },
   "author": "thomas.urban@cepharum.de",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-cepharum": "^1.0.8",
+    "eslint-plugin-promise": "^4.0.1",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
 }
