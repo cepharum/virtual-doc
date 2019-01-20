@@ -4,6 +4,7 @@
   "description": "a virtual document generator",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "mocha --ui bdd test/**/*.spec.js"
   },
   "author": "thomas.urban@cepharum.de",
